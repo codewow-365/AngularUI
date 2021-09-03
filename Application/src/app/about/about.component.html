@@ -1,1 +1,35 @@
 <p>about works for me!</p>
+
+<table>
+    <thead>
+        <div>
+            <th>
+                1
+            </th>
+            <th>
+                2
+            </th>
+            <th>
+                3
+            </th>
+            <th>
+                4
+            </th>
+        </div>
+        
+    </thead>
+    
+    <div *ngFor="let p of products">
+        <tr >
+          <td>{{p.userId}}</td>
+
+          <td>{{p.id}}</td>
+
+          <td>{{p.title}}</td>
+
+          <td>{{p.id}}</td>
+        </tr>
+    </div>
+
+    
+</table>
